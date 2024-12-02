@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="HomeTest">
+    <classes>
+      <class name="com.cb.tests.HomeTest"/>
+    </classes>
+  </test> 
+  <test  name="LoginTest">
+    <classes>
+      <class name="com.cb.tests.LoginTest"/>
+    </classes>
+  </test> 
+  <test  name="AttractionsTest">
+    <classes>
+      <class name="com.cb.tests.AttractionsTest"/>
+    </classes>
+  </test>
+  <test  name="BookingTest">
+    <classes>
+      <class name="com.cb.tests.BookingTest"/>
+    </classes>
+  </test>
+  <test  name="IncompleteBookingsTest">
+    <classes>
+      <class name="com.cb.tests.IncompleteBookingsTest"/>
+    </classes>
+  </test>
+  <test  name="MyBookingsTest">
+    <classes>
+      <class name="com.cb.tests.MyBookingsTest"/>
+    </classes>
+  </test>
+  <test  name="MyWalletTest">
+    <classes>
+      <class name="com.cb.tests.MyWalletTest"/>
+    </classes>
+  </test>
+  <test  name="ProfileTest">
+    <classes>
+      <class name="com.cb.tests.ProfileTest"/>
+    </classes>
+  </test>
+  <test  name="PropertiesTest">
+    <classes>
+      <class name="com.cb.tests.PropertiesTest"/>
+    </classes>
+  </test>
+  <test  name="SettingsTest">
+    <classes>
+      <class name="com.cb.tests.SettingsTest"/>
+    </classes>
+  </test> 
+  <test  name="WishlistTest">
+    <classes>
+      <class name="com.cb.tests.WishlistTest"/>
+    </classes>
+  </test>
+   <test  name="AddingpropertyTest">
+    <classes>
+      <class name="com.cb.tests.AddingpropertyTest"/>
+    </classes>
+  </test>
+  <test  name="AboutTest">
+    <classes>
+      <class name="com.cb.tests.AboutTest"/>
+    </classes>
+  </test>
+  <test  name="HotelsTest">
+    <classes>
+      <class name="com.cb.tests.HotelsTest"/>
+    </classes>
+  </test>
+  <test  name="LogoutTest">
+    <classes>
+      <class name="com.cb.tests.LogoutTest"/>
+    </classes>
+  </test><!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AddingpropertyTest(failed)">
+    <classes>
+      <class name="com.cb.tests.AddingpropertyTest">
+        <methods>
+          <include name="initExtent"/>
+          <include name="addingApropertyAsAHost"/>
+          <include name="quitTheApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.cb.tests.AddingpropertyTest -->
+    </classes>
+  </test> <!-- AddingpropertyTest(failed) -->
+  <test thread-count="5" name="AboutTest(failed)">
+    <classes>
+      <class name="com.cb.tests.AboutTest">
+        <methods>
+          <include name="initExtent"/>
+          <include name="quitTheApp"/>
+          <include name="verifyUserAbleToAccessTheAboutPage"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.cb.tests.AboutTest -->
+    </classes>
+  </test> <!-- AboutTest(failed) -->
+  <test thread-count="5" name="HotelsTest(failed)">
+    <classes>
+      <class name="com.cb.tests.HotelsTest">
+        <methods>
+          <include name="initExtent"/>
+          <include name="checkTheHotelDetails"/>
+          <include name="quitTheApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.cb.tests.HotelsTest -->
+    </classes>
+  </test> <!-- HotelsTest(failed) -->
+  <test thread-count="5" name="LogoutTest(failed)">
+    <classes>
+      <class name="com.cb.tests.LogoutTest">
+        <methods>
+          <include name="initExtent"/>
+          <include name="verifyUserAbleToLogout"/>
+          <include name="quitTheApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.cb.tests.LogoutTest -->
+    </classes>
+  </test> <!-- LogoutTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
