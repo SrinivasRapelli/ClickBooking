@@ -23,7 +23,7 @@ public class HotelsTest extends BasePage{
 			//hotelsPage.clickOnSearchField();
 	       	test.info("Click on SearchField ");
 			hotelsPage.enterCityName();
-	       	test.info("Entered city name as Hyderabad ");
+	       	test.info("Entered city name");
 	       	hotelsPage.selectCity();
 	       	test.info("Selected the city");
 	       	hotelsPage.enterCheckInandCheckOutDates();

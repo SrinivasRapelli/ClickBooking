@@ -13,9 +13,7 @@ public class WishlistTest extends BasePage{
 	WishlistPage wishlistPage;
 	LoginTest loginTest;
 	BookingPage bookingPage;
-	
-   
-	
+
 	@Test
 	public void verifyUserAbleToAddAPropertyToWishlist() throws InterruptedException {
 		loginTest = new LoginTest();
@@ -32,8 +30,7 @@ public class WishlistTest extends BasePage{
 			bookingPage.enterCityName("Chester");
 			test.info("Enter city name");
 			bookingPage.selectCity();
-			test.info("Select the city from recommendations");
-			
+			test.info("Select the city from recommendations");			
 			wishlistPage = new WishlistPage(driver);
 			wishlistPage.clickOnWishlistIcon();
 			test.info("Click on wishlist icon");

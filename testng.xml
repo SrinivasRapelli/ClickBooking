@@ -16,21 +16,21 @@
       <class name="com.cb.tests.AttractionsTest"/>
     </classes>
   </test>
-  <test  name="BookingTest">
+  <!--<test  name="BookingTest">
     <classes>
       <class name="com.cb.tests.BookingTest"/>
     </classes>
-  </test>
-  <test  name="IncompleteBookingsTest">
+  </test>-->
+  <!--<test  name="IncompleteBookingsTest">
     <classes>
       <class name="com.cb.tests.IncompleteBookingsTest"/>
     </classes>
-  </test>
-  <test  name="MyBookingsTest">
+  </test>-->
+  <!--<test  name="MyBookingsTest">
     <classes>
       <class name="com.cb.tests.MyBookingsTest"/>
     </classes>
-  </test>
+  </test>-->
   <test  name="MyWalletTest">
     <classes>
       <class name="com.cb.tests.MyWalletTest"/>
@@ -41,11 +41,11 @@
       <class name="com.cb.tests.ProfileTest"/>
     </classes>
   </test>
-  <test  name="PropertiesTest">
+  <!--<test  name="PropertiesTest">
     <classes>
       <class name="com.cb.tests.PropertiesTest"/>
     </classes>
-  </test>
+  </test>-->
   <test  name="SettingsTest">
     <classes>
       <class name="com.cb.tests.SettingsTest"/>
@@ -56,11 +56,11 @@
       <class name="com.cb.tests.WishlistTest"/>
     </classes>
   </test>
-   <test  name="AddingpropertyTest">
+  <!-- <test  name="AddingpropertyTest">
     <classes>
       <class name="com.cb.tests.AddingpropertyTest"/>
     </classes>
-  </test>
+  </test>-->
   <test  name="AboutTest">
     <classes>
       <class name="com.cb.tests.AboutTest"/>

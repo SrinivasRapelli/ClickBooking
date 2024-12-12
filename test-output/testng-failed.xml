@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cb.tests.IncompleteBookingsTest">
+      <class name="com.cb.tests.WishlistTest">
         <methods>
           <include name="initExtent"/>
-          <include name="IncompleteBookingFunctionality"/>
           <include name="quitTheApp"/>
+          <include name="verifyUserAbleToAddAPropertyToWishlist"/>
           <include name="openApp"/>
         </methods>
-      </class> <!-- com.cb.tests.IncompleteBookingsTest -->
+      </class> <!-- com.cb.tests.WishlistTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

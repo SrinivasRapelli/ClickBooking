@@ -28,15 +28,15 @@ public class HotelsPage {
 	By checkInCheckOutField = By.xpath("(//android.view.View)[8]");
 	By forward = By.xpath("//android.widget.Button[@content-desc=\"Forward\"]");
 	
-	By checkIndate = By.xpath("//android.view.View[@content-desc=\"Fri, 29 November 2024\"]");
-	By checkOutDate = By.xpath("//android.view.View[@content-desc=\"Sat, 30 November 2024\"]");
+	By checkIndate = By.xpath("//android.view.View[@content-desc=\"Sun, 12 January 2025\"]");
+	By checkOutDate = By.xpath("//android.view.View[@content-desc=\"Mon, 13 January 2025\"]");
 	By selectDatesButton = By.xpath("//android.widget.Button[@content-desc=\"Select dates\"]");
 	By searchButton =By.xpath("//android.widget.Button[@content-desc=\"Search\"]");
 	
 	By hotel = By.xpath("(//android.view.View)[17]");
 	
 	By selectRoomButton = By.xpath("//android.widget.Button");
-	By roomType = By.xpath("(//android.view.View)[15]");
+	By roomType = By.xpath("(//android.view.View)[14]");
 	By selectButton = By.xpath("//android.widget.Button[@content-desc=\"Select\"]");
 	By email = By.xpath("//android.widget.ScrollView/android.widget.EditText[1]");
 	By phoneNumber = By.xpath("//android.widget.ScrollView/android.widget.EditText[2]");
@@ -105,8 +105,8 @@ public class HotelsPage {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(checkInCheckOutField));
 	    element.click();
-//	    WebElement elemen1 = wait.until(ExpectedConditions.visibilityOfElementLocated(forward));
-//		elemen1.click();
+	    WebElement elemen1 = wait.until(ExpectedConditions.visibilityOfElementLocated(forward));
+		elemen1.click();
 	    WebElement element2 = wait.until(ExpectedConditions.visibilityOfElementLocated(checkIndate));
 	    element2.click();
 	    WebElement element3 = wait.until(ExpectedConditions.visibilityOfElementLocated(checkOutDate));
@@ -206,17 +206,14 @@ public class HotelsPage {
 		element.click();
 		element.sendKeys("Srini");
 		
-		WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement element1 = wait.until(ExpectedConditions.visibilityOfElementLocated(lname));
 		element1.click();
 		element1.sendKeys("R");
 		
-		WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement element2 = wait.until(ExpectedConditions.visibilityOfElementLocated(cardnumber));
 		element2.click();
 		element2.sendKeys("12345678910");
 		
-		WebDriverWait wait3 = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement element3 = wait.until(ExpectedConditions.visibilityOfElementLocated(cardHolder));
 		element3.click();
 		element3.sendKeys("VISA");
@@ -226,11 +223,9 @@ public class HotelsPage {
 		element4.click();
 		
 		
-		WebDriverWait wait5 = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement element5= wait.until(ExpectedConditions.visibilityOfElementLocated(ok));
 		element5.click();
 		
-		WebDriverWait wait6 = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement element6 = wait.until(ExpectedConditions.visibilityOfElementLocated(cvv));
 		element6.click();
 		element6.sendKeys("4535");

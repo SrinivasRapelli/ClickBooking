@@ -14,10 +14,10 @@ public class WishlistPage {
 		this.driver = driver;
 	}
 	
-	By wishlistIcon = By.xpath("(//android.view.View)[12]");
-	By home = By.xpath("(//android.widget.Button)[3]");
+	By wishlistIcon = By.xpath("(//android.view.View)[16]");
 	By wishlist = By.xpath("(//android.widget.Button)[12]");
 	By property = By.xpath("//android.widget.ImageView");
+	By home = By.xpath("(//android.widget.Button)[3]");
 	
 	public void clickOnWishlistIcon() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
