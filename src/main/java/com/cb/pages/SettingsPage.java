@@ -18,7 +18,7 @@ public class SettingsPage {
 	}
 	
 	By menu = By.xpath("(//android.widget.Button)[1]");
-	By settings = By.xpath("//android.widget.Button[@content-desc=\"Settings\"]");
+	By settings = By.xpath("//android.view.View[@content-desc=\"Settings\"]");
 	By currency = By.xpath("(//android.widget.Button)[2]");
 	By usd = By.xpath("(//android.widget.Button)[4]");
 	By distance = By.xpath("//android.widget.Button[@content-desc=\"mi Miles\"]");

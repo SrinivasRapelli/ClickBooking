@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-19T15:30:43 IST" name="Default suite" finished-at="2024-12-19T15:32:36 IST" duration-ms="113485">
+  <suite started-at="2024-12-19T17:31:42 IST" name="Default suite" finished-at="2024-12-19T17:33:45 IST" duration-ms="122446">
     <groups>
     </groups>
-    <test started-at="2024-12-19T15:30:43 IST" name="Default test" finished-at="2024-12-19T15:32:36 IST" duration-ms="113485">
-      <class name="com.cb.tests.AttractionsTest">
-        <test-method is-config="true" signature="initExtent()[pri:0, instance:com.cb.tests.AttractionsTest@67c27493]" started-at="2024-12-19T15:30:42 IST" name="initExtent" finished-at="2024-12-19T15:30:43 IST" duration-ms="447" status="PASS">
+    <test started-at="2024-12-19T17:31:42 IST" name="Default test" finished-at="2024-12-19T17:33:45 IST" duration-ms="122446">
+      <class name="com.cb.tests.SettingsTest">
+        <test-method is-config="true" signature="initExtent()[pri:0, instance:com.cb.tests.SettingsTest@67c27493]" started-at="2024-12-19T17:31:42 IST" name="initExtent" finished-at="2024-12-19T17:31:42 IST" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initExtent -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.cb.tests.AttractionsTest@67c27493]" started-at="2024-12-19T15:30:43 IST" name="openApp" finished-at="2024-12-19T15:31:06 IST" duration-ms="23164" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.cb.tests.SettingsTest@67c27493]" started-at="2024-12-19T17:31:42 IST" name="openApp" finished-at="2024-12-19T17:32:07 IST" duration-ms="24799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="verifyTheCategoriesOfTheAttractionsPage()[pri:0, instance:com.cb.tests.AttractionsTest@67c27493]" started-at="2024-12-19T15:31:06 IST" name="verifyTheCategoriesOfTheAttractionsPage" finished-at="2024-12-19T15:32:31 IST" duration-ms="84612" status="PASS">
+        <test-method signature="verifyUserAbleToChangeTheOptionsInSettingsPage()[pri:0, instance:com.cb.tests.SettingsTest@67c27493]" started-at="2024-12-19T17:32:07 IST" name="verifyUserAbleToChangeTheOptionsInSettingsPage" finished-at="2024-12-19T17:33:39 IST" duration-ms="91623" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTheCategoriesOfTheAttractionsPage -->
-        <test-method is-config="true" signature="quitTheApp()[pri:0, instance:com.cb.tests.AttractionsTest@67c27493]" started-at="2024-12-19T15:32:31 IST" name="quitTheApp" finished-at="2024-12-19T15:32:36 IST" duration-ms="5678" status="PASS">
+        </test-method> <!-- verifyUserAbleToChangeTheOptionsInSettingsPage -->
+        <test-method is-config="true" signature="quitTheApp()[pri:0, instance:com.cb.tests.SettingsTest@67c27493]" started-at="2024-12-19T17:33:39 IST" name="quitTheApp" finished-at="2024-12-19T17:33:45 IST" duration-ms="5971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitTheApp -->
-      </class> <!-- com.cb.tests.AttractionsTest -->
+      </class> <!-- com.cb.tests.SettingsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

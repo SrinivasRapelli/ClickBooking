@@ -22,7 +22,7 @@ public class ProfilePage {
 	
 	 By menuoption = By.xpath("(//*[@class='android.widget.Button'])[1]");
 	 
-	 By profile = By.xpath("//android.widget.Button[@content-desc=\"Profile\"]");
+	 By profile = By.xpath("//android.view.View[@content-desc=\"Profile\"]");
 	 By updateProfile = By.xpath("//android.widget.Button[@content-desc=\"Update Profile\"]");
 	 By fName = By.xpath("//android.view.View[@content-desc=\"First Name\"]");
 	 By lName = By.xpath("//android.view.View[@content-desc=\"Last Name\"]");
@@ -51,7 +51,7 @@ public class ProfilePage {
 	  	    Thread.sleep(3000);
 	  	    driver.navigate().back();
 	  	    driver.navigate().back();
-	  	    driver.navigate().back();
+	  	   // driver.navigate().back();
 	 }
 	 
 	 public void verifyFirstName() throws InterruptedException {

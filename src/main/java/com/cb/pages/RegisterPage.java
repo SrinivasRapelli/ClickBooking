@@ -21,6 +21,7 @@ public class RegisterPage {
         this.driver = driver;
     }
 
+    By menuoption = By.xpath("(//*[@class='android.widget.Button'])[1]");
     By registerlink = By.xpath("//android.widget.Button[@content-desc=\"Register\"]");
     By fName = By.xpath("//android.widget.FrameLayout[@resource-id=\"android:id/content\"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.widget.EditText[1]");
     By lname = By.xpath("//android.widget.FrameLayout[@resource-id=\"android:id/content\"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.widget.EditText[2]");
@@ -54,7 +55,12 @@ public class RegisterPage {
         }
     }*/
 
-    
+    public void clickOnMenu() throws InterruptedException {
+   	 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+ 	    WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(menuoption));
+ 	    element.click();
+   }
+
     public void clickOnRegisterLink() throws InterruptedException {
     	 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
    	    WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(registerlink));
@@ -121,4 +127,5 @@ public class RegisterPage {
    	    element.click();
     }
 
+	
 }

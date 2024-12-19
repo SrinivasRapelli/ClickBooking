@@ -13,20 +13,36 @@ public class RegisterTest extends BasePage {
     public void registerToTheApp() throws InterruptedException {
     	homeTest = new HomeTest();
 		homeTest.setUpToHomePage();
-        registerPage = new RegisterPage(driver);
+	try {
+		test = extent.createTest("RegisterTest"); 
+		registerPage = new RegisterPage(driver);
+		registerPage.clickOnMenu();
+		test.info("click on Menu");
         registerPage.clickOnRegisterLink();
+        test.info("click on Register link");
         registerPage.enterFName();
+        test.info("Enter First Name");
         registerPage.enterLName();
-        registerPage.enterUserName();
+        test.info("Enter Last Name");
+       // registerPage.enterUserName();
         registerPage.enteremail();
+        test.info("Enter Email");
         registerPage.enterPhone();
+        test.info("Enter Phone Number");
        // registerPage.scrollDown(driver,1000);
         registerPage.scrollDown();
         registerPage.enterPass();
+        test.info("Enter Password");
         registerPage.scrollDown();
         registerPage.enterCPass();
+        test.info("Enter Confirm Password");
         registerPage.scrollDown();
         registerPage.clickOnRegisterButton();
+        test.info("click on Register Button");
+		test.pass("Successfully registered");
+    } catch (Exception e) {
+		test.fail("Failed "+ e.getMessage());
+}
     }
 
 
