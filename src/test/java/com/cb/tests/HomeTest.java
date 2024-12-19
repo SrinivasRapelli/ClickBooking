@@ -13,7 +13,6 @@ public class HomeTest extends BasePage{
 		try {
 			test = extent.createTest("HomeTest"); 
 					homePage = new HomePage(driver);
-					
 					homePage.clickOnAllowButton();
 					test.info("click on Allow Button");
 					homePage.clickOnNotnowButton();

@@ -22,7 +22,7 @@ public class LoginPage {
     By whileusingTheAppOption = By.id("com.android.permissioncontroller:id/permission_allow_foreground_only_button");
    // By textMsg = By.xpath("//android.view.View[@content-desc=\"Couldn't find any properties on your location.\"]");
     By menuoption = By.xpath("(//*[@class='android.widget.Button'])[1]");
-    By loginLink = By.xpath("//android.widget.Button[@content-desc=\"Login\"]");
+    By loginLink = By.xpath("//android.view.View[@content-desc=\"Login\"]");
     By emailText = By.xpath("(//*[@class='android.widget.EditText'])[1]");
     By passwordText =By.xpath("(//*[@class='android.widget.EditText'])[2]");
     By loginBtn = By.xpath("//android.widget.Button[@content-desc=\"Login\"]");

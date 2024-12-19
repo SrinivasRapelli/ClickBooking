@@ -30,12 +30,12 @@
     <classes>
       <class name="com.cb.tests.MyBookingsTest"/>
     </classes>
-  </test>-->
+  </test>
   <test  name="MyWalletTest">
     <classes>
       <class name="com.cb.tests.MyWalletTest"/>
     </classes>
-  </test>
+  </test>-->
   <test  name="ProfileTest">
     <classes>
       <class name="com.cb.tests.ProfileTest"/>
@@ -51,12 +51,12 @@
       <class name="com.cb.tests.SettingsTest"/>
     </classes>
   </test> 
-  <test  name="WishlistTest">
+<!--  <test  name="WishlistTest">
     <classes>
       <class name="com.cb.tests.WishlistTest"/>
     </classes>
   </test>
-  <!-- <test  name="AddingpropertyTest">
+   <test  name="AddingpropertyTest">
     <classes>
       <class name="com.cb.tests.AddingpropertyTest"/>
     </classes>

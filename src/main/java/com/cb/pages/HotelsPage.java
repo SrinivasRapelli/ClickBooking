@@ -189,7 +189,13 @@ public class HotelsPage {
 		Thread.sleep(5000);
 		driver.navigate().back();
 		WebElement element4 = wait.until(ExpectedConditions.visibilityOfElementLocated(checkBox));
-		element4.click();
+
+		if (element4.isDisplayed()) {
+			element4.click();
+		} else {
+			System.out.println("Online Payment");
+		}
+				
 	}
 	
 	public void clickOnCompleteBookingButton() throws InterruptedException {

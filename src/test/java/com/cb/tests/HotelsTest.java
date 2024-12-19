@@ -32,15 +32,15 @@ public class HotelsTest extends BasePage{
 	       	test.info("Click on Select dates Button ");
 	       	hotelsPage.clickOnSearchButton();
 	       	test.info("Click on Search button  ");
+	       	hotelsPage.scrollDown();
 	       	hotelsPage.clickOnAHotelButton();
 	       	test.info("Click on View button ");
-	       	hotelsPage.scrollDown();
 	    	hotelsPage.scrollDown();
 	       	hotelsPage.scrollDown();
 	       	test.pass("Successfully checked the Hotels details");
 	       	hotelsPage.clickOnSelectButton();
 	       	test.pass("Click on Booknow button");
-	    	hotelsPage.scrollDown();
+	    	//hotelsPage.scrollDown();
 	       	hotelsPage.selectARoom();
 	       	test.pass("Selected a room");
 //	       	hotelsPage.enterCradDetails();

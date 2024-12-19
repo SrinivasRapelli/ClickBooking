@@ -27,7 +27,7 @@ public class Attractionspage {
 	}
 	
 	
-	By attractions = By.xpath("//android.widget.ScrollView/android.widget.Button[4]");
+	By attractions = By.xpath("(//android.widget.Button)[7]");
 	By currentLocation = By.xpath("//android.view.View[@content-desc=\"Around current location\"]");
 	By mapIcon  = By.xpath("(//android.widget.Button)[2]");
 	By restaurant= By.xpath("//android.view.View[@content-desc=\"Restaurant\"]");

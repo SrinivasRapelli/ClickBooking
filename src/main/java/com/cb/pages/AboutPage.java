@@ -22,8 +22,8 @@ public class AboutPage {
 	
 	
 	By menu = By.xpath("(//android.widget.Button)[1]");
-	By about = By.xpath("//android.widget.Button[@content-desc=\"About\"]");
-	By heading =By.xpath("(//android.view.View)[6]");
+	By about = By.xpath("//android.view.View[@content-desc=\"About\"]");
+	By heading =By.xpath("//android.view.View[@content-desc=\"About Us\"]");
 	
 	public void clickOnMenu() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));

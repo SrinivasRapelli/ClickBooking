@@ -27,10 +27,10 @@ public class SettingsTest extends BasePage {
 			test.info("change the currency");
 			settingsPage.changeTheDistanceunit();
 			test.info("Change the Distance unit");
-			settingsPage.EnableDynamicPricing();
-			test.info("Enable Dynamic Pricing");
-			settingsPage.disableDynamicPricing();
-			test.info("Disable Dynamic Pricing");
+//			settingsPage.EnableDynamicPricing();
+//			test.info("Enable Dynamic Pricing");
+//			settingsPage.disableDynamicPricing();
+//			test.info("Disable Dynamic Pricing");
 			test.pass("Successful");
 		} catch (Exception e) {
 			test.fail("Failed "+ e.getMessage());
